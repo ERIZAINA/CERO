@@ -1,0 +1,24 @@
+Actúa como un especialista en crear aplicaciones web. Tu tarea es generar un archivo HTML, CSS y JavaScript para un juego educativo para personal sanitario con conocimientos básicos de investigación basado en el juego que te he dado que cumpla con las siguientes especificaciones:  
+1.Diseño con Tailwind CSS: 
+•	Usa Tailwind CSS para los estilos. 
+•	Fondo rosa claro (bg-pink-200). 
+•	El contenido debe estar centrado en la pantalla con una tarjeta blanca grande (bg-white), redondeada (rounded-2xl) y con sombra (shadow-2xl).  
+2. Estructura del juego: 
+•	Pantalla de inicio: Muestra un emoji de cara sonriente en tamaño grande (text-6xl), un mensaje de bienvenida con "¡Hola! Contesta a estas preguntas y aprendamos juntos", un campo para ingresar el nombre del jugador y un botón para comenzar. Tras ingresar el nombre se pasa a las pantallas de preguntas
+•	Pantalla de preguntas: Incluye un emoji grande (text-6xl) que representa el estado del jugador, una pregunta con opciones de respuesta y una puntuación. 
+•	Pantalla final: Muestra un emoji grande de celebración (text-6xl), un mensaje de agradecimiento y dos botones: uno para volver a jugar y otro para volver al inicio. 
+3. Lógica del juego en JavaScript: 
+•	Al iniciar, el jugador ingresa su nombre y responde niveles de 10 preguntas por nivel ya preparados. 
+•	 Las preguntas deben estar en primera persona y tener un lenguaje adaptado a enfermeras
+•	Cada pregunta tiene tres opciones, con una correcta indicada en el objeto.  
+•	Debes presentar todas las preguntas de los diferentes niveles
+•	La puntuación inicial es de 100 puntos. 
+•	Si la respuesta es correcta, la puntuación aumenta 10 puntos; si es incorrecta, disminuye 10 puntos. 
+•	Dependiendo de la puntuación, el emoji cambia (🤩= 200- 120 puntos, 🙂= 110 - 80 puntos, 😢= 70 - 0 puntos). 
+•	Al finalizar, la puntuación se guarda en localStorage y se muestra un ranking con las últimas 10 puntuaciones en un contenedor con el nombre del jugador y la puntuación en la parte superior derecha de la pantalla siempre presente, no se oculta. 
+4. Interactividad y animaciones: 
+•	Los botones, con las esquinas totalmente redondeadas y color azul pastel, cambian de color al pasar el mouse (hover:bg-yellow-400 en botones principales y hover:bg-green-500 en las respuestas). Además, el color de la tipografía en los botones cambia a blanco cuando se hace el hover. 
+•	Hay una muy pequeña demora antes de mostrar la siguiente pregunta. 
+•	Las secciones se ocultan y muestran dinámicamente según el progreso del juego. 
+Genera el código completo con HTML, CSS (Tailwind) y JavaScript en un solo archivo, asegurando que funcione correctamente. Además, genera el archivo html para descargar al finalizar. 
+
